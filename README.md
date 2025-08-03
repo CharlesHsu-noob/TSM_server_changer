@@ -1,5 +1,6 @@
 # TSM_server_changer
 這是一個 Minecraft Fabric Client Mod，用來自動切換伺服器到2服(可以自己改程式碼到1服)。
+
 #功能
 - 玩家連線到mc.stud3nt.xyz時，自動發送切換伺服器的指令。
 - 為了解決在掛機時伺服器重啟或是斷線重連後跑到一服的狀況。

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "autoconnect",
+  "version": "1.0.0",
+  "name": "AutoConnect",
+  "description": "Automatically runs /server server02 after joining mc.stud3nt.xyz",
+  "authors": ["chatgpt"],
+  "contact": {
+    "homepage": "https://example.com"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.autoconnect.AutoConnectMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
